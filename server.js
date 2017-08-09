@@ -9,7 +9,8 @@ var app = express();
 // PORT
 var PORT = 3001;
 
-app.get("/", function (req, res) {
+// Routing n stuffs
+app.get("/", function(req, res) {
     res.send("Testing!!");
 });
 
