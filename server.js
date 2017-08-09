@@ -9,10 +9,14 @@ var app = express();
 // PORT
 var PORT = 3005;
 
-// Routing n stuffs
+// ROUTE TESTING HERE -- will be added to routing directory afterwards
 app.get("/", function(req, res) {
-    res.send("<h1>TESTING!</h1>");
+    // again; thank the universe for taking notes during class.
+    var home = path.join(__dirname, "app/public/home.html");
+    res.sendFile(home);
 });
 
 // listening!
-app.listen(PORT);
+app.listen(PORT, function(){
+    console.log("Listening on port: " + PORT);
+});
