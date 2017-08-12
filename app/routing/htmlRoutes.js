@@ -8,12 +8,12 @@ var path = require('path');
 module.exports = function (app) {
     app.get("/", function(req, res) {
         // again; thank the universe for taking notes during class.
-        var home = path.join(__dirname, "app/public/home.html");
+        var home = path.join(__dirname, "../public/home.html");
         res.sendFile(home);
     });
 
     app.get("/survey", function(req, res) {
-        var survey = path.join(__dirname, "app/public/survey.html");
+        var survey = path.join(__dirname, "../public/survey.html");
         res.sendFile(survey);
     });
 }
