@@ -1,5 +1,5 @@
 // tested routes in server js
-// once they worked, moving them over to his file here
+// once they worked, moving them over to this file here
 
 // requiring the npm package
 var path = require('path');

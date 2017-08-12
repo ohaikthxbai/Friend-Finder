@@ -7,6 +7,7 @@ var app = express();
 
 // Routes n' junk
 var htmlRoutes = require("./app/routing/htmlRoutes.js") (app);
+var apiRoutes = require("./app/routing/apiRoutes.js") (app);
 
 // PORT
 var PORT = 3005;
