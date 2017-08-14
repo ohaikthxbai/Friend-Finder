@@ -1,7 +1,7 @@
 var Acquaintances = [
     {
         "name": "Ash Ketchum",
-        "photo": "",
+        "photo": "http://i.imgur.com/WDSnuF4.png",
         "scores": [
             "5",
             "1",
@@ -17,7 +17,7 @@ var Acquaintances = [
     },
     {
         "name": "Sailor Moon",
-        "photo": "",
+        "photo": "http://i.imgur.com/YlMzmgM.png",
         "scores": [
             "5",
             "4",
@@ -33,7 +33,7 @@ var Acquaintances = [
     },
     {
         "name": "Bart Simpson",
-        "photo": "",
+        "photo": "http://i.imgur.com/x8bno1b.jpg",
         "scores": [
             "1",
             "4",
@@ -49,7 +49,7 @@ var Acquaintances = [
     },
     {
         "name": "Earl of Lemongrab",
-        "photo": "",
+        "photo": "http://i.imgur.com/BBlTntG.jpg?1",
         "scores": [
             "5",
             "5",
@@ -65,7 +65,7 @@ var Acquaintances = [
     },
     {
         "name": "Princess Peach",
-        "photo": "",
+        "photo": "http://i.imgur.com/0xdML6V.jpg",
         "scores": [
             "1",
             "3",
