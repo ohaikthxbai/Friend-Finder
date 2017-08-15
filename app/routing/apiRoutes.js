@@ -8,7 +8,7 @@ module.exports = function (app) {
     });
 
     app.post('/api/acquaintances', function(req, res) {
-		friendData.push(req.body);
+		acquaintData.push(req.body);
 		console.log(acquaintData);
 		res.json(acquaintData);
 	});
