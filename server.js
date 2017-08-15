@@ -17,7 +17,7 @@ var apiRoutes = require("./app/routing/apiRoutes.js") (app);
 console.log(apiRoutes);
 
 // PORT
-var PORT = process.env.PORT || 3005;
+var PORT = process.env.PORT || 8080;
 
 // listening!
 app.listen(PORT, function(){
